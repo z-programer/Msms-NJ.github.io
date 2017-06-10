@@ -15,11 +15,12 @@
 # in the templates via {{ site.myvariable }}.
 title: Msms's Blog
 email: msmsruby@gmail.com
-description: Rails程序员
+description: Rails程序员、业余Python爱好者，喜欢编程、爬山、看美剧、打游戏
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://msms-nj.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Mans_NJ
 github_username:  Msms-NJ
+google_analytics: UA-54748333-4
 
 # Build settings
 markdown: kramdown
@@ -29,3 +30,9 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+- about.html
+# - blog.html
