@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Msms's Blog
+title: 知行合一
 email: msmsruby@gmail.com
-description: Rails程序员、业余Python爱好者，喜欢编程、爬山、看美剧、打游戏
+description: 程序员博客，工作以及业余编程中的随笔，做到知行合一。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://msms-nj.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Mans_NJ
@@ -33,6 +33,6 @@ exclude:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-header_pages:
-- about.html
+# header_pages:
+# - about.html
 # - blog.html
