@@ -4,7 +4,7 @@ title: 关于我
 permalink: /about/
 ---
 
-Java程序员，后受到Rails的吸引，转化为Rails程序员，正在努力成为一个Rails程序员中。
+前Java程序员，现Ruby程序员，业余学习Python。一直在做Web开发相关内容。
 
 技能点：
 - Ruby
