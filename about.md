@@ -4,7 +4,9 @@ title: 关于
 permalink: /about/
 ---
 
-前Java程序员，现Ruby程序员，业余学习Python。一直在做Web开发相关内容。
+自我评价：
+- 努力学习中的程序员，但学习范围广而不精
+- Web开发程序员、业余开发前端
 
 技能点：
 - Ruby
