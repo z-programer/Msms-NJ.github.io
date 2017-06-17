@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 知行合一
+title: Msms's Blog
 email: msmsruby@gmail.com
-description: 程序员博客，工作以及业余编程中的随笔，做到知行合一。
+description: 程序员博客，工作以及业余编程中的随笔。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://msms-nj.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Mans_NJ
