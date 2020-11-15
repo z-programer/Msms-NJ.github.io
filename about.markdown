@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 关于
+lang: zh-cmn-Hans
 permalink: /about/
 ---
 

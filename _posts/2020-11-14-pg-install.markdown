@@ -2,6 +2,7 @@
 layout: post
 title:  "PostgreSQL安装手册"
 date:   2020-11-14 11:22:31 +0800
+lang: zh-cmn-Hans
 categories: postgresql
 ---
 在 Centos 7 上安装 PostgreSQL12 的手册。
