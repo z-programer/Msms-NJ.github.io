@@ -34,8 +34,11 @@ google_analytics: UA-54748333-4
 theme: minima
 # theme: jekyll-theme-time-machine
 plugins:
-  - jekyll-feed
-
+  # - jekyll-feed
+  
+header_pages:
+  - about.md
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
