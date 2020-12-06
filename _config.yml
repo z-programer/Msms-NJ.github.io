@@ -18,14 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 程序员博客
+title: Msms's Blog
 email: msmsruby@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Web开发，Java程序员、Ruby、Elixir学习中。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://msms-nj.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-# github_username:  jekyll
 twitter_username: Mans_NJ
 github_username:  Msms-NJ
 google_analytics: UA-54748333-4
@@ -34,7 +32,7 @@ google_analytics: UA-54748333-4
 theme: minima
 # theme: jekyll-theme-time-machine
 plugins:
-  # - jekyll-feed
+  - jekyll-feed
 
 header_pages:
   - about.markdown
