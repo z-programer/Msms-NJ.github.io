@@ -10,7 +10,7 @@ Docker使用部署手册。
 > 使用 docker 来部署相关系统，其中包含一个Tomcat服务、一个 Nginx 作为前台服务，一个Mysql服务、一个Redis服务，使用 docker-compose 来部署。
 
 <figure>
-<a><img src="{{site.url}}/asstes/images/docker-path.png"></a>
+<a><img src="{{site.url}}/assets/images/docker-path.png"></a>
 </figure>
 
 docker-compose.yml 的内容以及相关说明
