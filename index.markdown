@@ -4,4 +4,6 @@
 
 layout: home
 lang: zh-cmn-Hans
+title:
+list_title: ' '
 ---
