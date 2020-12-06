@@ -27,8 +27,6 @@ services:
     # 配置 Nginx 配置文件位置为当前目录下文件
     # 配置前端代码默认位置
     # 配置端口信息，其中映射到宿主机两个端口
-    # 80 端口为MUISE X.SYSTEM管理系统
-    # 81 端口为MUISE X.SYSTEM大屏展示系统
     # volumes 下的配置将宿主机的目录映射到容器里对应的目录
     volumes: 
       - ./nginx/conf:/etc/nginx/conf.d
@@ -145,9 +143,9 @@ docker exec -it fa538e3105bd /bin/bash
 #  docker save 保存的是镜像（image），docker export 保存的是容器（container）；
 #  docker load 用来载入镜像包，docker import 用来载入容器包，但两者都会恢复为镜像；
 #  docker load 不能对载入的镜像重命名，而 docker import 可以为镜像指定新名称。
-docker export 98ca36 > muise_web_server.tar
-docker save ubuntu:load > muise_web_server.tar
-docker load < muise_web_server.tar
+docker export 98ca36 >  web_server.tar
+docker save ubuntu:load >  web_server.tar
+docker load <  web_server.tar
 
 # 删除所有已经不使用的docker镜像，清除不必要的空间占用，慎用
 docker system prune --all
